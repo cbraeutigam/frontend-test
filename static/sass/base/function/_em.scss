@@ -1,0 +1,18 @@
+// ---------------------------------------------------------------------
+// em
+// ---------------------------------------------------------------------
+// converts a value in pixel to a value in em
+// 
+// e.g. 12px(target),16px(base) = 0.75em
+//
+// $target: value of the target element in pixels
+// $base: value of base, if not set it's the value of $base-font-size
+// $base-font-size: font size of body or html
+//
+// ---------------------------------------------------------------------
+
+
+@function em($target, $base: $base-font-size){
+	@if $target == 0 { @return 0 }
+	@return ($target / $base) + em;
+}

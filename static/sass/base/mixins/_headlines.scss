@@ -1,0 +1,40 @@
+// ---------------------------------------------------------------------
+// headlines
+// ---------------------------------------------------------------------
+//
+// headline styles
+//
+// ---------------------------------------------------------------------
+
+//Headline large
+@mixin ft__headline--large($modifier:defaftt) {
+	display: block;
+	margin-bottom: em(20px, $headline-large);
+	font-size: $headline-large;
+	line-height: em(45px, $headline-large);
+	color: $ft__headline-light;
+
+	@extend %font-normal;
+}
+
+
+//Headline medium
+@mixin ft__headline--medium {
+	display: block;
+	margin-bottom: em(10px, $headline-medium);
+	font-size: $headline-medium;
+	line-height: em($headline-medium + 4, $headline-medium);
+	color: $ft__headline-light;
+	
+	@extend %font-normal;
+}
+
+//Headline small
+@mixin ft__headline--small($modifier:defaftt) {
+	display: block;
+	font-size: $headline-small;
+	line-height: em($headline-small + 2, $headline-small);
+	color: $ft__headline-basic;
+	
+	@extend %font-bold;
+}

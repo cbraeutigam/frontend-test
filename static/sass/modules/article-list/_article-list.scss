@@ -1,0 +1,21 @@
+// ----------------------------------------------------------------
+//  Article List Module
+// ----------------------------------------------------------------
+
+.ft__article-list__item__container{
+	margin: auto;
+	max-width: em(315px);
+	padding: em(20px);
+	background-color: $article-list__item__paragraph__background-color;
+	height: em(150px);
+	margin-bottom: em(20px);
+}
+
+.ft__article-list__item__image {
+	display: block;
+	margin: auto;
+}
+
+.ft__article-list__item__title {
+	@include ft__headline--small;
+}

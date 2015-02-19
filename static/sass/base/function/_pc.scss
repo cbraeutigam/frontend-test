@@ -1,0 +1,15 @@
+// ---------------------------------------------------------------------
+// pc
+// ---------------------------------------------------------------------
+// converts a value in pixel to a value in percentage based on the value
+// in pixel of a parent container
+// e.g. 300(target), 500(context) = 60%
+//
+// $target: value of the target element in pixels
+// $context: value of the parent container in pixels
+//
+// ---------------------------------------------------------------------
+
+@function pc($target, $context: $target) {
+  @return ($target / $context) * 100%;
+}

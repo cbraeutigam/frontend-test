@@ -1,0 +1,45 @@
+// ----------------------------------------------------------------
+// typo
+// ----------------------------------------------------------------
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300);
+
+%font-light {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+@mixin font-light {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+%font-normal {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+@mixin font-normal {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+%font-medium {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+@mixin font-medium {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+%font-bold {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+@mixin font-bold {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}

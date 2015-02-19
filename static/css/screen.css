@@ -1,0 +1,246 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300);
+/* line 5, c:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, c:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, c:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, c:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, c:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, c:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, c:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, c:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, c:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../sass/base/_typo.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* line 17, ../sass/base/_typo.scss */
+.ft__main-content__title, .ft__main-content__subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/* line 37, ../sass/base/_typo.scss */
+.ft__text--important, .ft__article-list__item__title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+/* line 7, ../sass/base/_layout.scss */
+body {
+  background: #f2f2f2;
+  color: #000;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1.125em;
+}
+
+/* line 17, ../sass/base/_layout.scss */
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+
+/* line 23, ../sass/base/_layout.scss */
+.ft__page {
+  margin: 0 auto;
+  padding: 1.5625em 0.75em 0.75em;
+  font-size: 16px;
+  position: relative;
+  background: #fff;
+  zoom: 1;
+  /* < IE8 */
+}
+/* line 12, ../sass/base/mixins/_clearfix.scss */
+.ft__page:before, .ft__page:after {
+  content: "";
+  display: table;
+}
+/* line 18, ../sass/base/mixins/_clearfix.scss */
+.ft__page:after {
+  clear: both;
+}
+
+/* line 33, ../sass/base/_layout.scss */
+.ft__icon {
+  display: table;
+  margin: auto;
+  vertical-align: middle;
+}
+
+/* line 5, ../sass/modules/slider/_slider.scss */
+.ft__slider {
+  margin-bottom: 1.25em;
+}
+/* line 8, ../sass/modules/slider/_slider.scss */
+.ft__slider img {
+  margin: auto;
+}
+
+/* line 5, ../sass/modules/info-box/_info-box.scss */
+.ft__info-box {
+  max-width: 21.5em;
+}
+@media (max-width: 990px) {
+  /* line 5, ../sass/modules/info-box/_info-box.scss */
+  .ft__info-box {
+    max-width: 100%;
+  }
+}
+
+/* line 13, ../sass/modules/info-box/_info-box.scss */
+.ft__info-box__icon {
+  background-color: #812d44;
+  color: #fff;
+  width: 3.125em;
+  height: 3.125em;
+  position: absolute;
+  top: -0.625em;
+  left: 1.5625em;
+  padding: 0.3125em;
+}
+/* line 23, ../sass/modules/info-box/_info-box.scss */
+.ft__info-box__icon:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 15px solid #d9d9d9;
+  border-left: 25px solid #812d44;
+  width: 0;
+}
+/* line 33, ../sass/modules/info-box/_info-box.scss */
+.ft__info-box__icon:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 15px solid #d9d9d9;
+  border-right: 25px solid #812d44;
+  width: 0;
+}
+
+/* line 44, ../sass/modules/info-box/_info-box.scss */
+.ft__info-box__container {
+  background-color: #d9d9d9;
+  height: 22.5em;
+  margin-bottom: 1.25em;
+}
+
+/* line 50, ../sass/modules/info-box/_info-box.scss */
+.ft__info-box__paragraph {
+  font-size: 16px;
+  line-height: 1.25em;
+  padding: 3.125em 1.5625em;
+}
+
+/* line 5, ../sass/modules/article-list/_article-list.scss */
+.ft__article-list__item__container {
+  margin: auto;
+  max-width: 19.6875em;
+  padding: 1.25em;
+  background-color: #f2f2f2;
+  height: 9.375em;
+  margin-bottom: 1.25em;
+}
+
+/* line 14, ../sass/modules/article-list/_article-list.scss */
+.ft__article-list__item__image {
+  display: block;
+  margin: auto;
+}
+
+/* line 19, ../sass/modules/article-list/_article-list.scss */
+.ft__article-list__item__title {
+  display: block;
+  font-size: 16px;
+  line-height: 1.125em;
+  color: #000;
+}
+
+/* line 5, ../sass/modules/sidebar/_sidebar.scss */
+.ft__sidebar__container {
+  background-color: #f2f2f2;
+  height: 22.5em;
+  margin-bottom: 1.875em;
+}
+
+/* line 5, ../sass/modules/main-content/_main-content.scss */
+.ft__main-content__title {
+  display: block;
+  margin-bottom: 0.44444444em;
+  font-size: 45px;
+  line-height: 1em;
+  color: #dcdcdc;
+}
+
+/* line 9, ../sass/modules/main-content/_main-content.scss */
+.ft__main-content__subtitle {
+  display: block;
+  margin-bottom: 0.4em;
+  font-size: 25px;
+  line-height: 1.16em;
+  color: #dcdcdc;
+}
+
+/* line 13, ../sass/modules/main-content/_main-content.scss */
+.ft__main-content__paragraph {
+  margin-bottom: 1.25em;
+}

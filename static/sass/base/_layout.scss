@@ -1,0 +1,41 @@
+// ---------------------------------------------------------------------
+//
+// layout
+//
+// ---------------------------------------------------------------------
+
+body {
+	background: $ft__body-background;
+	color: $ft__text-color;
+	overflow-x: hidden;
+	font-size: $base-font-size;
+	line-height: em($base-font-size + 2);
+	
+	@extend %font-light;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+}
+
+.ft__page {
+	margin: 0 auto;
+	padding: em(25px) em(12px) em(12px);
+	font-size: $base-font-size;
+	position: relative;
+	background: $ft__page-background;
+
+	@include clearfix;
+}
+
+.ft__icon {
+	display: table;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.ft__text--important {
+	@extend %font-bold;
+}

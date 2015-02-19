@@ -1,0 +1,54 @@
+﻿// ---------------------------------------------------------------------
+// Info-Box Module
+// ---------------------------------------------------------------------
+
+.ft__info-box {
+	max-width: em(344px);
+
+	@media (max-width: 990px) {
+		max-width: 100%;
+	}	
+}			
+
+.ft__info-box__icon {
+	background-color: $ft__info-box__icon__background-color;
+	color: $ft__info-box__icon__color;
+	width: em(50px);
+	height: em(50px);
+	position: absolute;
+	top: em(-10px);
+	left: em(25px);
+	padding: em(5px);
+	
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 0; 
+		right: 0;
+		border-bottom: 15px solid $ft__info-box__background-color;
+		border-left: 25px solid $ft__info-box__icon__background-color;
+		width: 0;
+	}
+	
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: 0; 
+		left: 0;
+		border-bottom: 15px solid $ft__info-box__background-color;
+		border-right: 25px solid $ft__info-box__icon__background-color;
+		width: 0;
+	}
+}
+
+.ft__info-box__container {
+	background-color: $ft__info-box__background-color;
+	height: em(360px);
+	margin-bottom: em(20px);
+}
+
+.ft__info-box__paragraph {
+	font-size: $base-font-size;
+	line-height: em(20px, $base-font-size);
+	padding: em(50px) em(25px);
+}

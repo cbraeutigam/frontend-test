@@ -1,0 +1,15 @@
+// ---------------------------------------------------------------------
+// Main Content Modfte
+// ---------------------------------------------------------------------
+
+.ft__main-content__title {
+	@include ft__headline--large;
+}
+
+.ft__main-content__subtitle {
+	@include ft__headline--medium;
+}
+
+.ft__main-content__paragraph {
+	margin-bottom: em(20px);
+}
